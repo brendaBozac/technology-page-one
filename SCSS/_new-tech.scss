@@ -1,0 +1,60 @@
+.new-tech {
+    background: linear-gradient(183deg, rgba(21,0,46,1) 1%, rgba(0,0,0,1) 74%);
+
+    .new-tech-title {
+
+        h2 {
+            @include titulo-h2 ($colorCinco);
+            padding: 2vmax;
+            background-color: $colorUno;
+        } 
+    
+        p {
+            font-family: $font-parrafo;
+            font-size: 2vmax;
+            font-weight: bold;
+            color: $colorUno;
+            padding-bottom: 1.2rem;
+            padding: 1vmax 10vmax;
+            text-shadow: 1px 1px 1px $colorCuatro;
+            background-color: rgba(255, 255, 255, 0.075);
+        }
+    }
+
+}
+
+.contenedor-cards {
+    margin: 0 3vmax;
+    padding-bottom: 5vmax;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    border: none;
+    width: 20vmax;
+}
+
+
+.card-body {
+
+    .card-title {
+        font-size: 1.3vmax;
+        font-family: $font-parrafo;
+        font-weight: bold;
+        color: $colorCinco;
+
+    }
+
+    .card-text {
+        font-size: 1vmax;
+        font-family: $font-parrafo;
+        color: $colorCinco;
+    }
+
+    a {
+        font-family: $font-tres;
+        font-size: 1vmax;
+    }
+}
+

@@ -1,0 +1,55 @@
+
+header {
+    background-image: url(../img/tec1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 35vmax;
+    display: flex;
+    justify-content: start;
+    
+}
+
+.row-header {
+
+    div{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: start;
+
+        h1{
+            font-family: $font-titulo;
+            font-size: 6vmax;
+            color: $colorBlanco;
+            padding-bottom: 1.2rem;
+        }
+
+        h2 {
+            font-family: $font-parrafo;
+            font-size: 2vmax;
+            color: $colorBlanco;
+            padding-bottom: 1.2rem;
+            
+        }
+
+        a {
+            font-family: $font-tres;
+            font-size: 1.5vmax;
+            text-decoration: none;
+            color: $colorCinco;
+            font-weight: bold;
+            background-color: $colorUno;
+            padding: 0.5vmax 2.5vmax;
+            border-radius: 0.5vmax;
+        }
+
+        a:hover {
+            color: $colorBlanco;
+            background-color: $colorDos;
+        }
+    }
+
+    
+}
+
+

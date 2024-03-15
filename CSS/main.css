@@ -1,0 +1,722 @@
+/* variables colores */
+/* google fonts */
+/* variables fuentes */
+/* ++++++++++ */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.titulo-nav {
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 1.8vmax;
+}
+
+.nav-link {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.dropdown-item {
+  font-family: "Ubuntu", sans-serif;
+}
+
+header {
+  background-image: url(../img/tec1.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 35vmax;
+  display: flex;
+  justify-content: start;
+}
+
+.row-header div {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: start;
+}
+.row-header div h1 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 6vmax;
+  color: white;
+  padding-bottom: 1.2rem;
+}
+.row-header div h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2vmax;
+  color: white;
+  padding-bottom: 1.2rem;
+}
+.row-header div a {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 1.5vmax;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0.5vmax;
+}
+.row-header div a:hover {
+  color: white;
+  background-color: #cc3e18;
+}
+
+.container-franja {
+  background: linear-gradient(183deg, rgb(21, 0, 46) 1%, rgb(0, 0, 0) 74%);
+  height: 7vmax;
+}
+
+.texto-franja {
+  color: white;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: bold;
+  font-size: 2.5vmax;
+  text-shadow: rgba(255, 255, 255, 0.4431372549) 0 0 12px, rgba(169, 16, 121, 0.4941176471) 0 0 25PX, rgba(169, 16, 121, 0.5490196078) 0 0 35PX, rgba(169, 16, 121, 0.4941176471) 0 0 45PX;
+}
+
+article {
+  padding-top: 3vmax;
+  padding-bottom: 15vmax;
+  background-image: url(../img/fondo-article.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
+article .article-titulo {
+  padding: 4vmax 1vmax;
+}
+article .article-titulo h2 {
+  font-family: "Dela Gothic One", sans-serif;
+  color: white;
+  font-size: 4vmax;
+}
+article .article-titulo p {
+  font-family: "Nanum Gothic Coding", monospace;
+  color: white;
+  font-size: 1.5vmax;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  text-align: right;
+  text-shadow: rgba(255, 255, 255, 0.2549019608) 0 0 12px, rgba(169, 16, 121, 0.3137254902) 0 0 25PX, rgba(169, 16, 121, 0.3764705882) 0 0 35PX, rgba(169, 16, 121, 0.2862745098) 0 0 45PX;
+}
+
+.row-article {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.noticia {
+  display: flex;
+  flex-flow: column wrap;
+  padding-right: 15%;
+  justify-content: center;
+  align-items: start;
+}
+.noticia h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #f0971c;
+  font-size: 1.8vmax;
+}
+.noticia p {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-size: 1.2vmax;
+}
+.noticia a {
+  font-family: "Nanum Gothic Coding", monospace;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+}
+.noticia a:hover {
+  color: white;
+  background-color: #cc3e18;
+}
+
+.noticia-dos {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: end;
+  padding-left: 15%;
+  justify-content: center;
+  align-items: end;
+}
+.noticia-dos h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #f0971c;
+  font-size: 1.8vmax;
+}
+.noticia-dos p {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-size: 1.2vmax;
+}
+.noticia-dos a {
+  font-family: "Nanum Gothic Coding", monospace;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+}
+.noticia-dos a:hover {
+  color: white;
+  background-color: #cc3e18;
+}
+
+.div-img-noticia {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: end;
+}
+
+.div-img-noticia-dos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+}
+
+.foto-noticia {
+  width: 17vmax;
+  border-radius: 0 20% 0 20%;
+  filter: drop-shadow(5px 5px 5px rgba(87, 24, 24, 0.5));
+}
+
+.new-tech {
+  background: linear-gradient(183deg, rgb(21, 0, 46) 1%, rgb(0, 0, 0) 74%);
+}
+.new-tech .new-tech-title h2 {
+  font-family: "Dela Gothic One", sans-serif;
+  color: black;
+  font-size: 4vmax;
+  padding: 2vmax;
+  background-color: #f0971c;
+}
+.new-tech .new-tech-title p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2vmax;
+  font-weight: bold;
+  color: #f0971c;
+  padding-bottom: 1.2rem;
+  padding: 1vmax 10vmax;
+  text-shadow: 1px 1px 1px #4a073c;
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.contenedor-cards {
+  margin: 0 3vmax;
+  padding-bottom: 5vmax;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  border: none;
+  width: 20vmax;
+}
+
+.card-body .card-title {
+  font-size: 1.3vmax;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.card-body .card-text {
+  font-size: 1vmax;
+  font-family: "Ubuntu", sans-serif;
+  color: black;
+}
+.card-body a {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 1vmax;
+}
+
+/* separadores pre-footer */
+.separador-uno {
+  background-color: black;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2vmax 1vmax;
+}
+.separador-uno a {
+  text-decoration: none;
+  margin-bottom: 3vmax;
+  color: black;
+  font-weight: bold;
+  background-color: #f0971c;
+  padding: 0.3vmax 3vmax;
+  border-radius: 0.5vmax;
+  font-size: 2vmax;
+}
+.separador-uno a:hover {
+  color: white;
+  background-color: #cc3e18;
+}
+.separador-uno p {
+  color: #f0971c;
+  margin-bottom: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 1.5vmax;
+}
+
+.separador-dos {
+  background-color: #f0971c;
+  margin: 0;
+  padding: 3vmax;
+}
+.separador-dos h2 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 3vmax;
+  text-align: center;
+  color: black;
+}
+
+footer {
+  background-image: url(../img/fondo-footer.jpg);
+  background-size: cover;
+  background-position: start center;
+  height: 45vmax;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: end;
+  align-items: center;
+}
+
+.row-footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-contacto {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: start;
+}
+.footer-contacto h3 {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.8vmax;
+}
+.footer-contacto a {
+  text-decoration: none;
+  color: white;
+}
+.footer-contacto a:hover {
+  color: #f0971c;
+}
+
+.redes-sociales {
+  padding: 1.5vmax 0;
+}
+.redes-sociales a {
+  margin-right: 2vmax;
+  font-size: 2vmax;
+}
+.redes-sociales a:hover {
+  color: #f0971c;
+}
+
+.footer-links {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  align-content: center;
+}
+.footer-links h3 {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.8vmax;
+}
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  padding: 0.3vmax 0;
+}
+.footer-links a:hover {
+  color: #f0971c;
+}
+
+.footer-newsletter {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+}
+.footer-newsletter h3 {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.8vmax;
+}
+.footer-newsletter p {
+  color: white;
+  font-size: 1vmax;
+}
+
+.div-contacto i {
+  color: #f0971c;
+  font-size: 1vmax;
+  padding-right: 0.5vmax;
+}
+.div-contacto p {
+  color: white;
+  font-size: 1vmax;
+  margin-bottom: 1vmax;
+}
+
+.boton-suscripcion {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 1vmax;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #f0971c;
+  padding: 0.3vmax 3vmax;
+  border-radius: 0.5vmax;
+  margin-top: 4vmax;
+}
+.boton-suscripcion:hover {
+  color: white;
+  background-color: #cc3e18;
+}
+
+.copyright {
+  color: white;
+  font-size: 1vmax;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+/* @import paginas robotica.html */
+.main-robotica {
+  background-image: url(/img/prueba1.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 80vmax;
+}
+
+.robotica-col {
+  background: transparent;
+  backdrop-filter: blur(5px);
+  margin: 5vmax;
+  border: 1px solid rgba(65, 57, 57, 0.644);
+  border-radius: 2vmax;
+}
+.robotica-col h1 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 6vmax;
+  color: white;
+  padding-left: 3vmax;
+  padding-top: 1.5vmax;
+}
+
+.row-roboto {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  padding-top: 5vmax;
+  margin-right: 5vmax;
+  padding-left: 3vmax;
+}
+.row-roboto .rob-1 {
+  width: 18vmax;
+  height: 18vmax;
+  background-image: url(/img/robotoTres.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 3vmax;
+  box-shadow: 1px 1px 1px rgb(0, 0, 0);
+  margin-right: 5vmax;
+}
+.row-roboto .rob-2 {
+  width: 18vmax;
+  height: 18vmax;
+  background-image: url(/img/robotoUno.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 3vmax;
+  box-shadow: 1px 1px 1px rgb(0, 0, 0);
+  margin-right: 5vmax;
+}
+.row-roboto .rob-3 {
+  width: 18vmax;
+  height: 18vmax;
+  background-image: url(/img/robotoDos.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 3vmax;
+  box-shadow: 1px 1px 1px rgb(0, 0, 0);
+  margin-right: 5vmax;
+}
+.row-roboto .rob-4 {
+  width: 18vmax;
+  height: 18vmax;
+  background-image: url(/img/robotoCuatro.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 3vmax;
+  box-shadow: 1px 1px 1px rgb(0, 0, 0);
+  margin-right: 5vmax;
+}
+
+/* estructura MEDIAS-QUERIES  referencia en Breackpoints de Bootstrap */
+/* 
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px */
+/* media - querie  --  xxl - */
+/* media - querie  --  xxl - */
+/* media - querie  --  xxl - */
+/* media - querie  --  xl - */
+/* media - querie  --  xl - */
+/* media - querie  --  xl - */
+/* media - querie  --  lg - */
+/* media - querie  --  lg - */
+/* media - querie  --  lg - */
+@media only screen and (max-width: 992px) {
+  /* navegador */
+  .titulo-nav {
+    font-size: 2.8vmax;
+  }
+  /* header */
+  .row-header div h1 {
+    font-size: 4vmax;
+    padding-bottom: 0.5vmax;
+  }
+  .row-header div h2 {
+    font-size: 2vmax;
+    padding-bottom: 0.5vmax;
+  }
+  .row-header div a {
+    font-size: 1.5vmax;
+    padding: 0.2vmax 2vmax;
+  }
+  /* cards */
+  .contenedor-cards {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .card {
+    width: 30vmax;
+    margin: 1.5vmax 1vmax;
+  }
+  .card-body .card-title {
+    font-size: 1.5vmax;
+  }
+  .card-body .card-text {
+    font-size: 1.2vmax;
+  }
+  .card-body a {
+    font-size: 1.2vmax;
+  }
+}
+/* media - querie  --  md - */
+/* media - querie  --  md - */
+/* media - querie  --  md - */
+@media only screen and (max-width: 768px) {
+  /* navegador */
+  .titulo-nav {
+    font-size: 2.7vmax;
+  }
+  /* header */
+  .row-header div h1 {
+    font-size: 6vmax;
+    padding-bottom: 0.5vmax;
+  }
+  .row-header div h2 {
+    font-size: 2vmax;
+    padding-bottom: 0.5vmax;
+  }
+  .row-header div a {
+    font-size: 1.5vmax;
+    padding: 0.2vmax 2vmax;
+  }
+  /* article */
+  .article-titulo h2 {
+    text-align: center;
+  }
+  .article-titulo p {
+    display: none;
+  }
+  .row-article {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-img-noticia {
+    justify-content: center;
+  }
+  .div-img-noticia-dos {
+    justify-content: center;
+  }
+  .foto-noticia {
+    width: 30vmax;
+    padding-bottom: 4vmax;
+  }
+  .noticia {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+  }
+  .noticia-dos {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+  }
+  .rotacion {
+    flex-direction: column-reverse;
+  }
+  .noticia h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #f0971c;
+    font-size: 2.5vmax;
+  }
+  .noticia p {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 1.8vmax;
+  }
+  .noticia a {
+    font-size: 1.5vmax;
+  }
+  .noticia-dos h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #f0971c;
+    font-size: 2.5vmax;
+  }
+  .noticia-dos p {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 1.8vmax;
+  }
+  .noticia-dos a {
+    font-size: 1.5vmax;
+  }
+  /* cards */
+  .card {
+    width: 35vmax;
+    margin: 1.5vmax auto;
+  }
+  /* footer */
+  footer {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .footer-contacto {
+    margin-right: 10vmax;
+  }
+  .footer-links {
+    display: none;
+  }
+  .mail-footer {
+    font-size: 1vmax;
+  }
+}
+/* media - querie  --  sm - */
+/* media - querie  --  sm - */
+/* media - querie  --  sm - */
+@media only screen and (max-width: 576px) {
+  /* header */
+  .row-header div h1 {
+    font-size: 5vmax;
+    padding-bottom: 0.5vmax;
+  }
+  .row-header div h2 {
+    font-size: 1.8vmax;
+    padding-bottom: 0.5vmax;
+  }
+  .row-header div a {
+    font-size: 1.3vmax;
+    padding: 0.2vmax 2vmax;
+  }
+  /* article */
+  .row-article {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-img-noticia {
+    justify-content: center;
+  }
+  .div-img-noticia-dos {
+    justify-content: center;
+  }
+  .foto-noticia {
+    width: 30vmax;
+    padding-bottom: 4vmax;
+  }
+  .noticia {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+  }
+  .noticia-dos {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+  }
+  .rotacion {
+    flex-direction: column-reverse;
+  }
+  /* cards */
+  .card {
+    width: 40vmax;
+    margin: 1.5vmax auto;
+  }
+  /* footer */
+  footer {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .footer-contacto {
+    margin-right: 10vmax;
+  }
+  .footer-links {
+    display: none;
+  }
+  .mail-footer {
+    font-size: 1vmax;
+  }
+  /* ROBOTICA.HTML */
+  .main-robotica {
+    background-position: right 10% center;
+  }
+}
+/* media - querie  --  xs - */
+/* media - querie  --  xs - */
+/* media - querie  --  xs - */
+@media only screen and (max-width: 400px) {
+  /* cards */
+  /* cards */
+  .card {
+    width: 40vmax;
+    margin: 1.5vmax auto;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

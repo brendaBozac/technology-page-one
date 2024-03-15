@@ -1,0 +1,69 @@
+/* variables colores */
+
+$colorUno: #f0971c;
+$colorDos: #cc3e18;
+$colorTres: #9e0b41;
+$colorCuatro: #4a073c;
+$colorCinco: black;
+$colorBlanco: white;
+
+
+/* google fonts */
+/* variables fuentes */
+
+$font-titulo: "Dela Gothic One", sans-serif;
+$font-parrafo: "Ubuntu", sans-serif;
+$font-tres: "Nanum Gothic Coding", monospace;
+
+/* ++++++++++ */
+
+@mixin titulos-h3 ($size-h3) {
+    font-family: $font-parrafo;
+    font-weight: bold;
+    color: $colorUno;
+    font-size: $size-h3;
+}
+
+@mixin parrafo ($size-parrafo) {
+    font-family: $font-parrafo;
+    color: $colorBlanco;
+    font-size: $size-parrafo;
+}
+
+
+@mixin botones {
+            font-family: $font-tres;
+            text-decoration: none;
+            color: $colorCinco;
+            font-weight: bold;
+            background-color: $colorUno;
+            padding: 0.5vmax 2.5vmax;
+            border-radius: 0 0.6vmax 0 0.6vmax;
+}
+
+@mixin botones-hover {
+            color: $colorBlanco;
+            background-color: $colorDos;
+}
+            
+
+@mixin titulo-h2 ($color-h2){
+            font-family: $font-titulo;
+            color: $color-h2;
+            font-size: 4vmax;
+}
+
+@mixin subtitulo ($colorSubtitulo) {
+            font-family: $font-tres;
+            color: $colorSubtitulo;
+            font-size: 1.5vmax;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px $colorCinco;
+}
+
+@mixin title-h1 ($size-h1) {
+            font-family: $font-titulo;
+            font-size: $size-h1;
+            color: $colorBlanco;
+            
+}

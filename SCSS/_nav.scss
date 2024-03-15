@@ -1,0 +1,19 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-nav {
+    font-family: $font-titulo;
+    font-size: 1.8vmax;
+
+}
+
+.nav-link {
+    font-family: $font-parrafo;
+}
+
+.dropdown-item {
+    font-family: $font-parrafo;
+}
+

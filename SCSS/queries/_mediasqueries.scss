@@ -1,0 +1,382 @@
+
+/* estructura MEDIAS-QUERIES  referencia en Breackpoints de Bootstrap */
+/* 
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px */
+
+
+    /* media - querie  --  xxl - */
+    /* media - querie  --  xxl - */
+    /* media - querie  --  xxl - */
+    @media only screen and (min-width: 1201px) {
+
+    }
+
+    /* media - querie  --  xl - */
+    /* media - querie  --  xl - */
+    /* media - querie  --  xl - */
+    @media only screen and (max-width: 1200px) {
+
+
+    }
+    
+
+
+
+    /* media - querie  --  lg - */
+    /* media - querie  --  lg - */
+    /* media - querie  --  lg - */
+    @media only screen and (max-width: 992px) {
+
+        /* navegador */
+        .titulo-nav {
+            font-size: 2.8vmax;
+        }
+
+        /* header */
+
+        .row-header {
+
+            div{
+                h1{
+                    font-size: 4vmax;
+                    padding-bottom: 0.5vmax;
+                }
+
+                h2 {
+                    font-size: 2vmax;
+                    padding-bottom: 0.5vmax;
+                }
+
+                a {
+                    font-size: 1.5vmax;
+                    padding: 0.2vmax 2vmax;
+                }
+
+            }
+
+        }
+
+        /* cards */
+
+        .contenedor-cards {
+            display: flex;
+            flex-flow: row wrap;
+        }
+        
+        .card {
+            width: 30vmax;
+            margin: 1.5vmax 1vmax;
+        }
+
+        
+        .card-body {
+
+            .card-title {
+                font-size: 1.5vmax;
+            }
+
+            .card-text {
+                font-size: 1.2vmax;
+            }
+
+            a {
+                font-size: 1.2vmax;
+            }
+        }
+
+
+        
+
+
+    }
+
+
+
+
+
+
+    /* media - querie  --  md - */
+    /* media - querie  --  md - */
+    /* media - querie  --  md - */
+    @media only screen and (max-width: 768px) {
+
+        /* navegador */
+        .titulo-nav {
+            font-size: 2.7vmax;
+        }
+
+        /* header */
+
+        .row-header {
+
+            div{
+                h1{
+                    font-size: 6vmax;
+                    padding-bottom: 0.5vmax;
+                }
+
+                h2 {
+                    font-size: 2vmax;
+                    padding-bottom: 0.5vmax;
+                }
+
+                a {
+                    font-size: 1.5vmax;
+                    padding: 0.2vmax 2vmax;
+                }
+
+            }
+
+        }
+
+        /* article */
+
+        .article-titulo {
+            h2 {
+                text-align: center;
+            }
+    
+            p {
+                display: none;
+            }
+        }
+
+        .row-article {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .div-img-noticia {
+            justify-content: center;
+        }
+
+        .div-img-noticia-dos {
+            justify-content: center;
+        }
+
+        .foto-noticia {
+            width: 30vmax;
+            padding-bottom: 4vmax;    
+        }
+
+        .noticia {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 10%;
+        }
+
+        .noticia-dos {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 10%;
+        }
+ 
+        .rotacion {
+            flex-direction: column-reverse;
+        }
+           
+        .noticia {
+        
+            h3 {
+                @include titulos-h3 (2.5vmax);
+            }
+
+            p {
+                @include parrafo (1.8vmax);
+            }
+
+            a {
+                font-size: 1.5vmax;
+            }
+        }
+
+        .noticia-dos {
+        
+            h3 {
+                @include titulos-h3 (2.5vmax);
+            }
+
+            p {
+                @include parrafo (1.8vmax);
+            }
+
+            a {
+                font-size: 1.5vmax;
+            }
+        }
+
+        /* cards */
+
+        .card {
+            width: 35vmax;
+            margin: 1.5vmax auto;
+        }
+
+        /* footer */
+
+        footer {
+            flex-flow: column wrap;
+            align-items: center;
+             
+        }
+
+        .footer-contacto {
+            margin-right: 10vmax;
+        }
+
+        .footer-links {
+            display: none;
+        }
+
+        .mail-footer {
+            font-size: 1vmax;
+        }
+
+}
+
+
+
+
+
+
+
+    /* media - querie  --  sm - */
+    /* media - querie  --  sm - */
+    /* media - querie  --  sm - */
+
+    @media only screen and (max-width: 576px) {
+
+        /* header */
+        .row-header {
+
+            div{
+                h1{
+                    font-size: 5vmax;
+                    padding-bottom: 0.5vmax;
+                }
+
+                h2 {
+                    font-size: 1.8vmax;
+                    padding-bottom: 0.5vmax;
+                }
+
+                a {
+                    font-size: 1.3vmax;
+                    padding: 0.2vmax 2vmax;
+                }
+
+            }
+
+        }
+
+        /* article */
+        .row-article {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .div-img-noticia {
+            justify-content: center;
+        }
+
+        .div-img-noticia-dos {
+            justify-content: center;
+        }
+
+        .foto-noticia {
+            width: 30vmax;
+            padding-bottom: 4vmax;    
+        }
+
+        .noticia {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 10%;
+        }
+
+        .noticia-dos {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 10%;
+        }
+
+        .rotacion {
+            flex-direction: column-reverse;
+        }
+
+        /* cards */
+        .card {
+            width: 40vmax;
+            margin: 1.5vmax auto;
+        }
+
+        /* footer */
+        footer {
+            flex-flow: column wrap;
+            align-items: center;
+             
+        }
+
+        .footer-contacto {
+            margin-right: 10vmax;
+        }
+
+        .footer-links {
+            display: none;
+        }
+
+        .mail-footer {
+            font-size: 1vmax;
+        }
+
+
+        /* ROBOTICA.HTML */
+
+        .main-robotica {
+            background-position: right 10% center;
+        }
+
+
+        
+
+
+    }
+
+
+
+
+
+
+
+    /* media - querie  --  xs - */
+    /* media - querie  --  xs - */
+    /* media - querie  --  xs - */
+    @media only screen and (max-width: 400px) {
+
+        /* cards */
+        
+        /* cards */
+        .card {
+            width: 40vmax;
+            margin: 1.5vmax auto;
+        }
+
+
+
+
+        
+         
+    }

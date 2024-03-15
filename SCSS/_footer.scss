@@ -1,0 +1,193 @@
+/* separadores pre-footer */
+
+.separador-uno {
+    background-color: $colorCinco;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2vmax 1vmax;
+
+    a {
+        text-decoration: none;
+        margin-bottom: 3vmax;
+        color: $colorCinco;
+        font-weight: bold;
+        background-color: $colorUno;
+        padding: 0.3vmax 3vmax;
+        border-radius: 0.5vmax;
+        font-size: 2vmax;
+        
+
+        &:hover {
+            color: $colorBlanco;
+            background-color: $colorDos;
+        }
+    }
+
+    p {
+        color: $colorUno;
+        margin-bottom: 0;
+        font-family: $font-parrafo;
+        font-weight: bold;
+        font-size: 1.5vmax;
+
+
+    }
+
+}
+
+.separador-dos {
+    background-color: $colorUno;
+    margin: 0;
+    padding: 3vmax;
+    
+   
+
+    h2 {
+        font-family: $font-titulo;
+        font-size: 3vmax;
+        text-align: center;
+        color: black;
+    }
+}
+
+
+
+
+
+footer {
+    background-image: url(../img/fondo-footer.jpg);
+    background-size: cover;
+    background-position: start center;
+    height: 45vmax;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: end;
+    align-items: center;
+    
+
+}
+
+.row-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contacto {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+
+    h3 {
+        color: $colorBlanco;
+        font-family: $font-parrafo;
+        font-size: 1.8vmax;
+    }
+
+    a {
+        text-decoration: none;
+        color: $colorBlanco;
+
+        &:hover {
+            color: $colorUno;
+        }
+    }
+}
+
+
+.redes-sociales {
+    padding: 1.5vmax 0;
+    
+    a {
+        margin-right: 2vmax;
+        font-size: 2vmax;
+
+        &:hover {
+            color: $colorUno;
+        }
+    }
+}
+
+.footer-links {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: start;
+    align-content: center;
+    
+
+    h3 {
+        color: $colorBlanco;
+        font-family: $font-parrafo;
+        font-size: 1.8vmax;
+    }
+
+    a {
+        text-decoration: none;
+        color: $colorBlanco;
+        padding: 0.3vmax 0;
+
+        &:hover {
+            color: $colorUno;
+        }
+    }
+}
+
+.footer-newsletter {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: start;
+
+    h3 {
+        color: $colorBlanco;
+        font-family: $font-parrafo;
+        font-size: 1.8vmax;
+    }
+    p {
+        color: $colorBlanco;
+        font-size: 1vmax;
+    }
+
+    
+}
+.div-contacto {
+    i {
+        color: $colorUno;
+        font-size: 1vmax;
+        padding-right: 0.5vmax;
+    }
+
+    p {
+        color: $colorBlanco;
+        font-size: 1vmax;
+        margin-bottom: 1vmax;
+    }
+}
+
+.boton-suscripcion {
+            font-family: $font-tres;
+            font-size: 1vmax;
+            text-decoration: none;
+            color: $colorCinco;
+            font-weight: bold;
+            background-color: $colorUno;
+            padding: 0.3vmax 3vmax;
+            border-radius: 0.5vmax;
+            margin-top: 4vmax;
+
+            &:hover {
+                color: $colorBlanco;
+                background-color: $colorDos;
+        }
+}
+
+.copyright {
+    color: $colorBlanco;
+    font-size: 1vmax;
+    font-family: $font-tres;
+}
