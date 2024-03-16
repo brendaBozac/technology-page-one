@@ -7,8 +7,9 @@
 }
 
 
-.robotica-col {
 
+.robotica-col {
+    width: 60%;
     background: transparent;
     backdrop-filter: blur(5px);
     margin: 5vmax;
@@ -26,7 +27,7 @@
 
 .row-roboto {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: start;
     padding-top: 5vmax;
     margin-right: 5vmax;
@@ -44,6 +45,26 @@
         box-shadow: 1px 1px 1px rgb(0, 0, 0);
         margin-right: 5vmax;
 
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: end;
+
+        a {
+            @include botones;
+            font-size: 1vmax;
+            margin-bottom: 1vmax;
+
+            &:hover {
+                color: $colorBlanco;
+                background-color: rgba(0, 0, 0, 0.527);
+                padding: 3vmax 3.3vmax;
+                border-radius: 0 0 3vmax 3vmax;
+                font-size: 1.5vmax;
+                text-shadow: 1px 1px 1px black;
+                margin-bottom: 0;
+            }
+        }
     }
 
     .rob-2 {
@@ -55,7 +76,27 @@
         border-radius: 3vmax;
         box-shadow: 1px 1px 1px rgb(0, 0, 0);
         margin-right: 5vmax;
-        
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: end;
+
+        a {
+            @include botones;
+            font-size: 1vmax;
+            margin-bottom: 1vmax;
+
+            &:hover {
+                color: $colorBlanco;
+                background-color: rgba(0, 0, 0, 0.527);
+                padding: 3vmax 6.3vmax;
+                border-radius: 0 0 3vmax 3vmax;
+                font-size: 1.5vmax;
+                text-shadow: 1px 1px 1px black;
+                margin-bottom: 0;
+            }
+        }
     }
 
     .rob-3 {
@@ -67,6 +108,27 @@
         border-radius: 3vmax;
         box-shadow: 1px 1px 1px rgb(0, 0, 0);
         margin-right: 5vmax;
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: end;
+
+        a {
+            @include botones;
+            font-size: 1vmax;
+            margin-bottom: 1vmax;
+
+            &:hover {
+                color: $colorBlanco;
+                background-color: rgba(0, 0, 0, 0.527);
+                padding: 3vmax 6.7vmax;
+                border-radius: 0 0 3vmax 3vmax;
+                font-size: 1.5vmax;
+                text-shadow: 1px 1px 1px black;
+                margin-bottom: 0;
+            }
+        }
     }
 
     .rob-4 {
@@ -78,5 +140,30 @@
         border-radius: 3vmax;
         box-shadow: 1px 1px 1px rgb(0, 0, 0);
         margin-right: 5vmax;
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: end;
+
+        a {
+            @include botones;
+            font-size: 1vmax;
+            margin-bottom: 1vmax;
+
+            &:hover {
+                color: $colorBlanco;
+                background-color: rgba(0, 0, 0, 0.527);
+                padding: 3vmax 5.1vmax;
+                border-radius: 0 0 3vmax 3vmax;
+                font-size: 1.5vmax;
+                text-shadow: 1px 1px 1px black;
+                margin-bottom: 0;
+            }
+        }
     }
+}
+
+.row-roboto-dos {
+    padding-bottom: 3vmax;
 }

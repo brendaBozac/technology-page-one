@@ -1,6 +1,11 @@
 .navbar-brand {
     display: flex;
     align-items: center;
+
+    i {
+        font-size: 1.7vmax;
+        font-weight: bold;
+    }
 }
 
 .titulo-nav {
@@ -8,9 +13,16 @@
     font-size: 1.8vmax;
 
 }
-
+.nav-item {
+    /* display: flex;
+    flex-flow: row wrap;
+    align-items: end; */
+    padding-top: 0.5vmax;
+}
 .nav-link {
     font-family: $font-parrafo;
+    font-size: 1.2vmax;
+    font-weight: bold;
 }
 
 .dropdown-item {

@@ -6,14 +6,27 @@
   display: flex;
   align-items: center;
 }
+.navbar-brand i {
+  font-size: 1.7vmax;
+  font-weight: bold;
+}
 
 .titulo-nav {
   font-family: "Dela Gothic One", sans-serif;
   font-size: 1.8vmax;
 }
 
+.nav-item {
+  /* display: flex;
+  flex-flow: row wrap;
+  align-items: end; */
+  padding-top: 0.5vmax;
+}
+
 .nav-link {
   font-family: "Ubuntu", sans-serif;
+  font-size: 1.2vmax;
+  font-weight: bold;
 }
 
 .dropdown-item {
@@ -300,10 +313,15 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.row-footer .foot-caja {
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+}
 
 .footer-contacto {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: start;
 }
@@ -321,11 +339,13 @@ footer {
 }
 
 .redes-sociales {
-  padding: 1.5vmax 0;
+  padding: 1.2vmax 0;
+  display: flex;
+  flex-flow: row nowrap;
 }
 .redes-sociales a {
-  margin-right: 2vmax;
-  font-size: 2vmax;
+  margin-right: 1.6vmax;
+  font-size: 1.5vmax;
 }
 .redes-sociales a:hover {
   color: #f0971c;
@@ -388,7 +408,7 @@ footer {
   background-color: #f0971c;
   padding: 0.3vmax 3vmax;
   border-radius: 0.5vmax;
-  margin-top: 4vmax;
+  margin-top: 2vmax;
 }
 .boton-suscripcion:hover {
   color: white;
@@ -410,6 +430,7 @@ footer {
 }
 
 .robotica-col {
+  width: 60%;
   background: transparent;
   backdrop-filter: blur(5px);
   margin: 5vmax;
@@ -426,7 +447,7 @@ footer {
 
 .row-roboto {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: start;
   padding-top: 5vmax;
   margin-right: 5vmax;
@@ -441,6 +462,30 @@ footer {
   border-radius: 3vmax;
   box-shadow: 1px 1px 1px rgb(0, 0, 0);
   margin-right: 5vmax;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: end;
+}
+.row-roboto .rob-1 a {
+  font-family: "Nanum Gothic Coding", monospace;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  font-size: 1vmax;
+  margin-bottom: 1vmax;
+}
+.row-roboto .rob-1 a:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 3vmax 3.3vmax;
+  border-radius: 0 0 3vmax 3vmax;
+  font-size: 1.5vmax;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 0;
 }
 .row-roboto .rob-2 {
   width: 18vmax;
@@ -451,6 +496,30 @@ footer {
   border-radius: 3vmax;
   box-shadow: 1px 1px 1px rgb(0, 0, 0);
   margin-right: 5vmax;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: end;
+}
+.row-roboto .rob-2 a {
+  font-family: "Nanum Gothic Coding", monospace;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  font-size: 1vmax;
+  margin-bottom: 1vmax;
+}
+.row-roboto .rob-2 a:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 3vmax 6.3vmax;
+  border-radius: 0 0 3vmax 3vmax;
+  font-size: 1.5vmax;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 0;
 }
 .row-roboto .rob-3 {
   width: 18vmax;
@@ -461,6 +530,30 @@ footer {
   border-radius: 3vmax;
   box-shadow: 1px 1px 1px rgb(0, 0, 0);
   margin-right: 5vmax;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: end;
+}
+.row-roboto .rob-3 a {
+  font-family: "Nanum Gothic Coding", monospace;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  font-size: 1vmax;
+  margin-bottom: 1vmax;
+}
+.row-roboto .rob-3 a:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 3vmax 6.7vmax;
+  border-radius: 0 0 3vmax 3vmax;
+  font-size: 1.5vmax;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 0;
 }
 .row-roboto .rob-4 {
   width: 18vmax;
@@ -471,6 +564,34 @@ footer {
   border-radius: 3vmax;
   box-shadow: 1px 1px 1px rgb(0, 0, 0);
   margin-right: 5vmax;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: end;
+}
+.row-roboto .rob-4 a {
+  font-family: "Nanum Gothic Coding", monospace;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  font-size: 1vmax;
+  margin-bottom: 1vmax;
+}
+.row-roboto .rob-4 a:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 3vmax 5.1vmax;
+  border-radius: 0 0 3vmax 3vmax;
+  font-size: 1.5vmax;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 0;
+}
+
+.row-roboto-dos {
+  padding-bottom: 3vmax;
 }
 
 /* estructura MEDIAS-QUERIES  referencia en Breackpoints de Bootstrap */
@@ -532,6 +653,10 @@ footer {
 /* media - querie  --  md - */
 @media only screen and (max-width: 768px) {
   /* navegador */
+  .navbar-brand i {
+    font-size: 2vmax;
+    font-weight: bold;
+  }
   .titulo-nav {
     font-size: 2.7vmax;
   }
@@ -633,6 +758,17 @@ footer {
   .mail-footer {
     font-size: 1vmax;
   }
+  /* robotica - targetas roboto */
+  .robotica-col {
+    margin: 5vmax;
+  }
+  .robotica-col h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 4vmax;
+    color: white;
+    padding-left: 3vmax;
+    padding-top: 1.5vmax;
+  }
 }
 /* media - querie  --  sm - */
 /* media - querie  --  sm - */
@@ -690,11 +826,18 @@ footer {
   }
   /* footer */
   footer {
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
   }
   .footer-contacto {
     margin-right: 10vmax;
+  }
+  .redes-sociales {
+    padding: 1vmax 0;
+  }
+  .redes-sociales a {
+    margin-right: 1vmax;
+    font-size: 1vmax;
   }
   .footer-links {
     display: none;
@@ -706,6 +849,14 @@ footer {
   .main-robotica {
     background-position: right 10% center;
   }
+  .robotica-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .robotica-col {
+    width: 80%;
+  }
 }
 /* media - querie  --  xs - */
 /* media - querie  --  xs - */
@@ -716,6 +867,17 @@ footer {
   .card {
     width: 40vmax;
     margin: 1.5vmax auto;
+  }
+  /* footer */
+  .redes-sociales {
+    padding: 0.5vmax 0;
+  }
+  .redes-sociales a {
+    margin-right: 0.7vmax;
+    font-size: 0.8vmax;
+  }
+  .robotica-col {
+    width: 90%;
   }
 }
 

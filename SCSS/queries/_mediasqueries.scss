@@ -106,6 +106,13 @@
     @media only screen and (max-width: 768px) {
 
         /* navegador */
+
+        .navbar-brand {
+            i {
+                font-size: 2vmax;
+                font-weight: bold;
+            }
+        }
         .titulo-nav {
             font-size: 2.7vmax;
         }
@@ -241,7 +248,26 @@
             font-size: 1vmax;
         }
 
-}
+
+        /* robotica - targetas roboto */
+
+        
+        .robotica-col {
+
+            margin: 5vmax;
+
+            h1 {
+                @include title-h1(4vmax);
+                padding-left: 3vmax;
+                padding-top: 1.5vmax;
+            }
+
+        }
+
+        
+        
+    
+    }
 
 
 
@@ -325,7 +351,7 @@
 
         /* footer */
         footer {
-            flex-flow: column wrap;
+            flex-flow: column nowrap;
             align-items: center;
              
         }
@@ -333,6 +359,17 @@
         .footer-contacto {
             margin-right: 10vmax;
         }
+
+        .redes-sociales {
+            padding: 1vmax 0;
+            
+            a {
+                margin-right: 1vmax;
+                font-size: 1vmax;
+
+            }
+        }
+        
 
         .footer-links {
             display: none;
@@ -350,8 +387,15 @@
         }
 
 
-        
+        .robotica-row {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
 
+        .robotica-col {
+            width: 80%;
+        }
 
     }
 
@@ -374,7 +418,22 @@
             margin: 1.5vmax auto;
         }
 
+        /* footer */
 
+        
+        .redes-sociales {
+            padding: 0.5vmax 0;
+            
+            a {
+                margin-right: 0.7vmax;
+                font-size: 0.8vmax;
+
+            }
+        }
+
+        .robotica-col {
+            width: 90%;
+        }
 
 
         
