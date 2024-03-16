@@ -2,6 +2,7 @@
 /* google fonts */
 /* variables fuentes */
 /* ++++++++++ */
+/* pagina inteligencia artificial */
 .navbar-brand {
   display: flex;
   align-items: center;
@@ -422,6 +423,49 @@ footer {
 }
 
 /* @import paginas robotica.html */
+.art-header {
+  background-image: url(/img/ia-header.jpg);
+  background-size: cover;
+  background-position: center top 27%;
+}
+
+.row-art {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.column-art {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: justify;
+  padding: 0 5vmax;
+}
+.column-art .titulo-art {
+  font-family: "Dela Gothic One", sans-serif;
+  color: black;
+  font-size: 2.8vmax;
+  padding-bottom: 2.5vmax;
+}
+.column-art .subtit-art {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 2.1vmax;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 1vmax;
+}
+.column-art .parrafo-art {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3vmax;
+  color: black;
+  padding-bottom: 1vmax;
+}
+.column-art .foto-art {
+  width: 45vmax;
+  margin-bottom: 2.5vmax;
+  border-radius: 2vmax;
+  align-self: center;
+}
+
 .main-robotica {
   background-image: url(/img/prueba1.jpg);
   background-size: cover;
@@ -768,6 +812,11 @@ footer {
     color: white;
     padding-left: 3vmax;
     padding-top: 1.5vmax;
+  }
+  /* PAGINA DE INTELIGENCIA ARTIFICIAL
+  MEDIAS QUERIES -MD */
+  .column-art .parrafo-art {
+    font-size: 1.8vmax;
   }
 }
 /* media - querie  --  sm - */

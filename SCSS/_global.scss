@@ -67,3 +67,27 @@ $font-tres: "Nanum Gothic Coding", monospace;
             color: $colorBlanco;
             
 }
+
+/* pagina inteligencia artificial */
+
+@mixin articulo-h1 {
+        font-family: $font-titulo;
+        color: $colorCinco;
+        font-size: 2.8vmax;
+        padding-bottom: 2.5vmax;
+}
+
+@mixin articulo-subtit {
+        font-family: $font-tres;
+        font-size: 2.1vmax;
+        color: $colorCinco;
+        font-weight: bold;
+        padding-bottom: 1vmax;
+}
+
+@mixin articulo-parrafo {
+        font-family: $font-parrafo;
+        font-size: 1.3vmax;
+        color: $colorCinco;
+        padding-bottom: 1vmax;
+}

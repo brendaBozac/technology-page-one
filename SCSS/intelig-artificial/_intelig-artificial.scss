@@ -1,0 +1,39 @@
+.art-header {
+    background-image: url(/img/ia-header.jpg);
+    background-size: cover;
+    background-position: center top 27%;
+}
+
+.row-art {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.column-art {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: justify;
+    padding: 0 5vmax;
+
+
+    .titulo-art {
+        @include articulo-h1;
+    }
+
+    .subtit-art {
+        @include articulo-subtit;
+    }
+
+    .parrafo-art {
+        @include articulo-parrafo;
+    }
+ 
+    .foto-art {
+        width: 45vmax;
+        margin-bottom: 2.5vmax;
+        border-radius: 2vmax;
+        align-self: center;
+    }
+
+}
