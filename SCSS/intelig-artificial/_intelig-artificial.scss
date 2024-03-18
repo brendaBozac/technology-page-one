@@ -37,3 +37,51 @@
     }
 
 }
+
+
+.column-ia {
+    padding: 0 3vmax;
+
+
+    h2 {
+        @include articulo-h1;
+        text-align: center;
+    }
+
+
+        
+    .bloque-ia {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        background-color: rgb(226, 226, 177);
+
+        img{
+            width:15vmax ;
+            margin-bottom: 1vmax;
+        }
+
+        a {
+            @include botones;
+            font-size: 1.5vmax;
+            margin-bottom: 1vmax;
+
+            &:hover {
+                color: $colorBlanco;
+                background-color: $colorCuatro;
+            }
+        }
+
+        p {
+            font-family: $font-parrafo;
+            font-size: 1vmax;
+            margin-bottom: 1vmax;
+            padding: 0 1.5vmax;
+        }
+
+
+    }
+
+}

@@ -89,10 +89,6 @@
             }
         }
 
-
-        
-
-
     }
 
 
@@ -266,16 +262,7 @@
 
         
 
-        /* PAGINA DE INTELIGENCIA ARTIFICIAL
-        MEDIAS QUERIES -MD */
-        
-        .column-art {
-
-            .parrafo-art {
-                font-size: 1.8vmax; 
-            }
-        }
-        
+    
     }
 
 
@@ -406,6 +393,21 @@
             width: 80%;
         }
 
+
+        /* media - querie  --  sm - */
+        /*  @media only screen and (max-width: 576px) {     */
+
+        /* pag - inteligencia artificial */   
+
+        
+        .column-art {
+
+            .parrafo-art {
+                font-size: 1.5vmax; 
+            }
+        }
+        
+        
     }
 
 
@@ -445,6 +447,11 @@
         }
 
 
+        /* media - querie  --  xs - */
+        /*  @media only screen and (max-width: 400px) {     */
+
+        /* pag - inteligencia artificial */      
+    
         
          
     }

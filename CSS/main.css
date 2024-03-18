@@ -466,6 +466,50 @@ footer {
   align-self: center;
 }
 
+.column-ia {
+  padding: 0 3vmax;
+}
+.column-ia h2 {
+  font-family: "Dela Gothic One", sans-serif;
+  color: black;
+  font-size: 2.8vmax;
+  padding-bottom: 2.5vmax;
+  text-align: center;
+}
+.column-ia .bloque-ia {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  background-color: rgb(226, 226, 177);
+}
+.column-ia .bloque-ia img {
+  width: 15vmax;
+  margin-bottom: 1vmax;
+}
+.column-ia .bloque-ia a {
+  font-family: "Nanum Gothic Coding", monospace;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  font-size: 1.5vmax;
+  margin-bottom: 1vmax;
+}
+.column-ia .bloque-ia a:hover {
+  color: white;
+  background-color: #4a073c;
+}
+.column-ia .bloque-ia p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1vmax;
+  margin-bottom: 1vmax;
+  padding: 0 1.5vmax;
+}
+
 .main-robotica {
   background-image: url(/img/prueba1.jpg);
   background-size: cover;
@@ -813,11 +857,6 @@ footer {
     padding-left: 3vmax;
     padding-top: 1.5vmax;
   }
-  /* PAGINA DE INTELIGENCIA ARTIFICIAL
-  MEDIAS QUERIES -MD */
-  .column-art .parrafo-art {
-    font-size: 1.8vmax;
-  }
 }
 /* media - querie  --  sm - */
 /* media - querie  --  sm - */
@@ -906,6 +945,12 @@ footer {
   .robotica-col {
     width: 80%;
   }
+  /* media - querie  --  sm - */
+  /*  @media only screen and (max-width: 576px) {     */
+  /* pag - inteligencia artificial */
+  .column-art .parrafo-art {
+    font-size: 1.5vmax;
+  }
 }
 /* media - querie  --  xs - */
 /* media - querie  --  xs - */
@@ -928,6 +973,9 @@ footer {
   .robotica-col {
     width: 90%;
   }
+  /* media - querie  --  xs - */
+  /*  @media only screen and (max-width: 400px) {     */
+  /* pag - inteligencia artificial */
 }
 
 /*# sourceMappingURL=main.css.map */
