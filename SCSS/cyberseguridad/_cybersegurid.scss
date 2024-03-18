@@ -52,7 +52,6 @@
         
         background-color: $colorCinco;
         height: 10vmax;
-        margin-bottom: 2vmax;
 
 
         .black-titulo-separador {
@@ -68,3 +67,37 @@
         }
     }
           
+
+    .ciber-container {
+        background-image:url(/img/ciberseg-fondo.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 80vmax;
+    }
+
+    .ciber-row {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: end;
+        align-items: center;
+        text-align: justify;
+
+    }
+
+    .ciber-col {
+        width: 68%;
+        padding: 3vmax;
+
+        h2 {
+           @include titulo-h2($colorBlanco);
+           font-size: 2vmax;
+        }
+        
+        p {
+            @include articulo-parrafo;
+            color: $colorBlanco;
+
+            
+        }
+        
+    }

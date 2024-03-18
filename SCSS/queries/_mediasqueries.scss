@@ -260,8 +260,21 @@
 
         }
 
+        /* pagina ciberseguridad */
         
+        .ciber-container {
+            height: 110vmax;
+            background-position: left 47% center;
+        }
 
+        .ciber-col {
+
+            width: 80%;
+
+            p {
+                font-size: 1.8vmax;
+            }
+        }
     
     }
 
@@ -406,6 +419,40 @@
                 font-size: 1.5vmax; 
             }
         }
+
+         /* pagina ciberseguridad */
+        
+         /* pagina ciberseguridad */
+        
+        .black-row-separador {
+            height: 14vmax;
+        }
+
+        .black-titulo-separador {
+           
+            h1 {
+                text-align: center;
+
+            }
+        }
+        
+        .ciber-container {
+            height: 240vmax;
+            background-position: left 30% center;
+        }
+
+        .ciber-col {
+
+            width: 80%;
+
+            h2 {
+                font-size: 3vmax;
+            }
+
+            p {
+                font-size: 2.6vmax;
+            }
+        }   
         
         
     }
@@ -450,8 +497,21 @@
         /* media - querie  --  xs - */
         /*  @media only screen and (max-width: 400px) {     */
 
-        /* pag - inteligencia artificial */      
-    
-        
          
+        .ciber-container {
+            height: 250vmax;
+        }
+         
+        .ciber-col {
+
+            width: 80%;
+
+            h2 {
+                font-size: 2.6vmax;
+            }
+
+            p {
+                font-size: 2.2vmax;
+            }
+        } 
     }
