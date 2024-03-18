@@ -775,6 +775,54 @@ footer {
   padding-bottom: 3vmax;
 }
 
+.carousel-item img {
+  width: 100%;
+  height: 35vmax;
+  object-fit: cover;
+  object-position: center bottom 40%;
+}
+.carousel-item .carousel-caption h5 {
+  font-family: "Dela Gothic One", sans-serif;
+  color: black;
+  font-size: 2.8vmax;
+  padding-bottom: 2.5vmax;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  padding-bottom: 1.5vmax;
+  text-shadow: 3px 3px 5px white;
+}
+.carousel-item .carousel-caption p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3vmax;
+  color: black;
+  padding-bottom: 1vmax;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  font-weight: bold;
+  font-size: 1.6vmax;
+  text-shadow: 3px 3px 5px white;
+}
+
+.about-row {
+  width: 70%;
+  margin: 2vmax auto;
+}
+.about-row .about-col {
+  text-align: justify;
+}
+.about-row .about-col h2 {
+  font-family: "Dela Gothic One", sans-serif;
+  color: black;
+  font-size: 4vmax;
+  font-size: 2.5vmax;
+}
+.about-row .about-col p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3vmax;
+  color: black;
+  padding-bottom: 1vmax;
+}
+
 /* estructura MEDIAS-QUERIES  referencia en Breackpoints de Bootstrap */
 /* 
     xs: 0,

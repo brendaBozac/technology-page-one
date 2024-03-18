@@ -1,0 +1,56 @@
+.carousel-item {
+    
+    
+
+
+    img {
+        width: 100%;
+        height: 35vmax;
+        object-fit: cover;
+        object-position: center bottom 40%;
+
+    }
+
+
+    .carousel-caption {
+
+        h5 {
+            @include articulo-h1;
+            background: transparent;
+            backdrop-filter: blur(5px);
+            padding-bottom: 1.5vmax;
+            text-shadow: 3px 3px 5px $colorBlanco;
+        }
+
+        p {
+            @include articulo-parrafo;
+            background: transparent;
+            backdrop-filter: blur(5px);
+            font-weight: bold;
+            font-size: 1.6vmax;
+            text-shadow: 3px 3px 5px $colorBlanco;
+        }
+    }
+}
+
+.about-row {
+
+    width: 70%;
+    margin: 2vmax auto;
+
+    .about-col {
+
+        text-align: justify;
+
+        h2{
+            @include titulo-h2 ($colorCinco);
+            font-size: 2.5vmax;
+        }
+
+        p {
+            @include articulo-parrafo;
+        }
+    }
+
+
+}
