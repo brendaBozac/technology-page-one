@@ -199,4 +199,15 @@ footer {
     color: $colorBlanco;
     font-size: 1vmax;
     font-family: $font-tres;
+
+    a { 
+        color: $colorUno
+
+    }
+
+    a:hover {
+        color: $colorBlanco;
+        background-color: $colorDos;
+    }
+
 }

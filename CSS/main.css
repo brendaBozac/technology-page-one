@@ -421,6 +421,13 @@ footer {
   font-size: 1vmax;
   font-family: "Nanum Gothic Coding", monospace;
 }
+.copyright a {
+  color: #f0971c;
+}
+.copyright a:hover {
+  color: white;
+  background-color: #cc3e18;
+}
 
 /* @import paginas robotica.html */
 .art-header {
