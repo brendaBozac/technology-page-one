@@ -1,0 +1,70 @@
+
+    .seguridad-header {
+        background-image: url(/img/seguridad-header.jpg);
+        background-size: cover;
+        background-position: center top 27%;
+    }
+
+
+    .banner-row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 2vmax 0;
+        width: 90%;
+        margin: 5vmax auto;
+
+        .banner-col  {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            
+
+            .banner-logo {
+                width: 10vmax;
+                padding-top: 1vmax;
+            }
+
+
+            .banner-ancor {
+                @include botones;
+                margin-top: 1.5vmax;
+                font-size: 1.2vmax;
+
+
+                &:hover {
+                    color: $colorBlanco;
+                    background-color: $colorCuatro;
+                }
+            }
+
+        }
+    }
+
+
+     /*  <!-- franja negra separador --> */
+
+    .black-row-separador {
+        
+        background-color: $colorCinco;
+        height: 10vmax;
+        margin-bottom: 2vmax;
+
+
+        .black-titulo-separador {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                @include title-h1 (4.5vmax);
+
+            }
+        }
+    }
+          

@@ -510,6 +510,67 @@ footer {
   padding: 0 1.5vmax;
 }
 
+.seguridad-header {
+  background-image: url(/img/seguridad-header.jpg);
+  background-size: cover;
+  background-position: center top 27%;
+}
+
+.banner-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 2vmax 0;
+  width: 90%;
+  margin: 5vmax auto;
+}
+.banner-row .banner-col {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.banner-row .banner-col .banner-logo {
+  width: 10vmax;
+  padding-top: 1vmax;
+}
+.banner-row .banner-col .banner-ancor {
+  font-family: "Nanum Gothic Coding", monospace;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #f0971c;
+  padding: 0.5vmax 2.5vmax;
+  border-radius: 0 0.6vmax 0 0.6vmax;
+  margin-top: 1.5vmax;
+  font-size: 1.2vmax;
+}
+.banner-row .banner-col .banner-ancor:hover {
+  color: white;
+  background-color: #4a073c;
+}
+
+/*  <!-- franja negra separador --> */
+.black-row-separador {
+  background-color: black;
+  height: 10vmax;
+  margin-bottom: 2vmax;
+}
+.black-row-separador .black-titulo-separador {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.black-row-separador .black-titulo-separador h1 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 4.5vmax;
+  color: white;
+}
+
 .main-robotica {
   background-image: url(/img/prueba1.jpg);
   background-size: cover;
