@@ -1,26 +1,26 @@
 @import "global";
 
-@import "nav";
+@import "index-estilos/nav";
 
-@import "header";
+@import "index-estilos/header";
 
-@import "franja-animada";
+@import "index-estilos/franja-animada";
 
-@import "article";
+@import "index-estilos/article";
 
-@import "new-tech";
+@import "index-estilos/new-tech";
 
-@import "footer";
+@import "index-estilos/footer";
 
 /* @import paginas robotica.html */
 
-@import "intelig-artificial/intelig-artificial";
+@import "pages/intelig-artificial";
 
-@import "cyberseguridad/cybersegurid";
+@import "pages/cybersegurid";
 
-@import "robotica/robotica";
+@import "pages/robotica";
 
-@import "about/about";
+@import "pages/about";
 
 
 
