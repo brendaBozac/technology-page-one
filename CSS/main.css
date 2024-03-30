@@ -431,7 +431,7 @@ footer {
 
 /* @import paginas robotica.html */
 .art-header {
-  background-image: url(../../img/ia-header.jpg);
+  background-image: url(../img/ia-header.jpg);
   background-size: cover;
   background-position: center top 27%;
 }
@@ -518,7 +518,7 @@ footer {
 }
 
 .seguridad-header {
-  background-image: url(/img/seguridad-header.jpg);
+  background-image: url(../img/seguridad-header.jpg);
   background-size: cover;
   background-position: center top 27%;
 }
@@ -578,7 +578,7 @@ footer {
 }
 
 .ciber-container {
-  background-image: url(/img/ciberseg-fondo.jpg);
+  background-image: url(../img/ciberseg-fondo.jpg);
   background-size: cover;
   background-position: center center;
   height: 80vmax;
@@ -611,7 +611,7 @@ footer {
 }
 
 .main-robotica {
-  background-image: url(/img/prueba1.jpg);
+  background-image: url(../img/prueba1.jpg);
   background-size: cover;
   background-position: center center;
   height: 80vmax;
@@ -644,7 +644,7 @@ footer {
 .row-roboto .rob-1 {
   width: 18vmax;
   height: 18vmax;
-  background-image: url(/img/robotoTres.jpg);
+  background-image: url(../img/robotoTres.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 3vmax;
@@ -678,7 +678,7 @@ footer {
 .row-roboto .rob-2 {
   width: 18vmax;
   height: 18vmax;
-  background-image: url(/img/robotoUno.jpg);
+  background-image: url(../img/robotoUno.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 3vmax;
@@ -712,7 +712,7 @@ footer {
 .row-roboto .rob-3 {
   width: 18vmax;
   height: 18vmax;
-  background-image: url(/img/robotoDos.jpg);
+  background-image: url(../img/robotoDos.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 3vmax;
@@ -746,7 +746,7 @@ footer {
 .row-roboto .rob-4 {
   width: 18vmax;
   height: 18vmax;
-  background-image: url(/img/robotoCuatro.jpg);
+  background-image: url(../img/robotoCuatro.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 3vmax;
