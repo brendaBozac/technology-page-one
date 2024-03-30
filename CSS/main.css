@@ -431,7 +431,7 @@ footer {
 
 /* @import paginas robotica.html */
 .art-header {
-  background-image: url(/img/ia-header.jpg);
+  background-image: url(../../img/ia-header.jpg);
   background-size: cover;
   background-position: center top 27%;
 }
