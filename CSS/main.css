@@ -292,7 +292,7 @@ article .article-titulo p {
 }
 .separador-dos h2 {
   font-family: "Dela Gothic One", sans-serif;
-  font-size: 3vmax;
+  font-size: 2.5vmax;
   text-align: center;
   color: black;
 }
@@ -313,27 +313,39 @@ footer {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 .row-footer .foot-caja {
-  justify-content: center;
-  align-items: baseline;
-  align-content: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: start;
+  align-self: baseline;
 }
 
 .footer-contacto {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
-  align-items: start;
+  padding-left: 5vmax !important;
 }
 .footer-contacto h3 {
   color: white;
   font-family: "Ubuntu", sans-serif;
-  font-size: 1.8vmax;
+  font-size: 1.7vmax;
+  padding-bottom: 1vmax;
+}
+.footer-contacto .div-contacto i {
+  font-size: 1.3vmax;
+}
+.footer-contacto .div-contacto p {
+  font-size: 1.3vmax;
 }
 .footer-contacto a {
   text-decoration: none;
   color: white;
+  font-size: 1.3vmax;
 }
 .footer-contacto a:hover {
   color: #f0971c;
@@ -346,7 +358,7 @@ footer {
 }
 .redes-sociales a {
   margin-right: 1.6vmax;
-  font-size: 1.5vmax;
+  font-size: 1.7vmax;
 }
 .redes-sociales a:hover {
   color: #f0971c;
@@ -355,16 +367,17 @@ footer {
 .footer-links {
   display: flex;
   flex-flow: column wrap;
-  justify-content: start;
-  align-items: start;
   align-content: center;
+  text-align: center;
 }
 .footer-links h3 {
   color: white;
   font-family: "Ubuntu", sans-serif;
-  font-size: 1.8vmax;
+  font-size: 1.7vmax;
+  padding-bottom: 1vmax;
 }
 .footer-links a {
+  font-size: 1.3vmax;
   text-decoration: none;
   color: white;
   padding: 0.3vmax 0;
@@ -376,40 +389,41 @@ footer {
 .footer-newsletter {
   display: flex;
   flex-flow: column wrap;
-  justify-content: start;
-  align-items: start;
 }
 .footer-newsletter h3 {
   color: white;
   font-family: "Ubuntu", sans-serif;
-  font-size: 1.8vmax;
+  font-size: 1.7vmax;
+  padding-bottom: 1vmax;
 }
 .footer-newsletter p {
   color: white;
-  font-size: 1vmax;
+  font-size: 1.3vmax;
 }
 
 .div-contacto i {
   color: #f0971c;
-  font-size: 1vmax;
+  font-size: 1.3vmax;
   padding-right: 0.5vmax;
 }
 .div-contacto p {
   color: white;
-  font-size: 1vmax;
-  margin-bottom: 1vmax;
+  font-size: 1.3vmax;
+  margin-bottom: 1.7vmax;
 }
 
 .boton-suscripcion {
   font-family: "Nanum Gothic Coding", monospace;
-  font-size: 1vmax;
+  font-size: 1.3vmax;
   text-decoration: none;
   color: black;
   font-weight: bold;
   background-color: #f0971c;
-  padding: 0.3vmax 3vmax;
+  padding: 0.3vmax 2vmax;
   border-radius: 0.5vmax;
   margin-top: 2vmax;
+  display: flex;
+  flex-flow: row nowrap;
 }
 .boton-suscripcion:hover {
   color: white;
@@ -431,7 +445,7 @@ footer {
 
 /* @import paginas robotica.html */
 .art-header {
-  background-image: url(../img/ia-header.jpg);
+  background-image: url(../../img/ia-header.jpg);
   background-size: cover;
   background-position: center top 27%;
 }
@@ -467,7 +481,7 @@ footer {
   padding-bottom: 1vmax;
 }
 .column-art .foto-art {
-  width: 45vmax;
+  width: 35vmax;
   margin-bottom: 2.5vmax;
   border-radius: 2vmax;
   align-self: center;
@@ -518,7 +532,7 @@ footer {
 }
 
 .seguridad-header {
-  background-image: url(../img/seguridad-header.jpg);
+  background-image: url(/img/seguridad-header.jpg);
   background-size: cover;
   background-position: center top 27%;
 }
@@ -578,7 +592,7 @@ footer {
 }
 
 .ciber-container {
-  background-image: url(../img/ciberseg-fondo.jpg);
+  background-image: url(/img/ciberseg-fondo.jpg);
   background-size: cover;
   background-position: center center;
   height: 80vmax;
@@ -611,7 +625,7 @@ footer {
 }
 
 .main-robotica {
-  background-image: url(../img/prueba1.jpg);
+  background-image: url(../../img/prueba1.jpg);
   background-size: cover;
   background-position: center center;
   height: 80vmax;
@@ -644,7 +658,7 @@ footer {
 .row-roboto .rob-1 {
   width: 18vmax;
   height: 18vmax;
-  background-image: url(../img/robotoTres.jpg);
+  background-image: url(../../img/robotoTres.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 3vmax;
@@ -678,7 +692,7 @@ footer {
 .row-roboto .rob-2 {
   width: 18vmax;
   height: 18vmax;
-  background-image: url(../img/robotoUno.jpg);
+  background-image: url(../../img/robotoUno.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 3vmax;
@@ -712,7 +726,7 @@ footer {
 .row-roboto .rob-3 {
   width: 18vmax;
   height: 18vmax;
-  background-image: url(../img/robotoDos.jpg);
+  background-image: url(../../img/robotoDos.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 3vmax;
@@ -746,7 +760,7 @@ footer {
 .row-roboto .rob-4 {
   width: 18vmax;
   height: 18vmax;
-  background-image: url(../img/robotoCuatro.jpg);
+  background-image: url(../../img/robotoCuatro.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 3vmax;
@@ -980,19 +994,48 @@ footer {
     width: 35vmax;
     margin: 1.5vmax auto;
   }
+  .card-body .card-title {
+    font-size: 2vmax;
+  }
+  .card-body .card-text {
+    font-size: 1.5vmax;
+  }
+  .card-body a {
+    font-size: 1.5vmax;
+  }
+  /* separador uno */
+  .separador-uno p {
+    font-size: 2.5vmax;
+  }
   /* footer */
   footer {
-    flex-flow: column wrap;
-    align-items: center;
+    display: flex;
+    flex-flow: column wrap !important;
+  }
+  .row-footer {
+    width: 85% auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5vmax;
   }
   .footer-contacto {
     margin-right: 10vmax;
+    padding-left: 0 !important;
+  }
+  .footer-contacto h3 {
+    font-size: 2.8vmax;
+  }
+  .footer-contacto .div-contacto i {
+    font-size: 2.1vmax;
+  }
+  .footer-contacto .div-contacto p {
+    font-size: 2.1vmax;
   }
   .footer-links {
-    display: none;
+    display: none !important;
   }
   .mail-footer {
-    font-size: 1vmax;
+    font-size: 2.1vmax;
   }
   /* robotica - targetas roboto */
   .robotica-col {
@@ -1071,26 +1114,64 @@ footer {
     width: 40vmax;
     margin: 1.5vmax auto;
   }
+  .card-body .card-title {
+    font-size: 3vmax;
+  }
+  .card-body .card-text {
+    font-size: 2.5vmax;
+  }
+  .card-body a {
+    font-size: 2.5vmax;
+  }
+  /* separador uno */
+  .separador-uno p {
+    font-size: 2.5vmax;
+  }
   /* footer */
   footer {
     flex-flow: column nowrap;
     align-items: center;
+    justify-content: center;
+    height: 70vmax;
+  }
+  .row-footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .row-footer .foot-caja {
+    align-items: center;
+    margin-top: 1.5vmax;
   }
   .footer-contacto {
-    margin-right: 10vmax;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
   }
-  .redes-sociales {
-    padding: 1vmax 0;
+  .footer-contacto h3 {
+    font-size: 2.5vmax;
+  }
+  .footer-contacto .div-contacto i {
+    font-size: 2vmax;
+  }
+  .footer-contacto .div-contacto p {
+    font-size: 2vmax;
+  }
+  .footer-contacto a {
+    font-size: 2vmax;
   }
   .redes-sociales a {
-    margin-right: 1vmax;
-    font-size: 1vmax;
-  }
-  .footer-links {
-    display: none;
+    font-size: 2.5vmax;
   }
   .mail-footer {
-    font-size: 1vmax;
+    font-size: 2vmax;
   }
   /* ROBOTICA.HTML */
   .main-robotica {
@@ -1102,13 +1183,27 @@ footer {
     justify-content: center;
   }
   .robotica-col {
-    width: 80%;
+    width: 90%;
   }
   /* media - querie  --  sm - */
   /*  @media only screen and (max-width: 576px) {     */
   /* pag - inteligencia artificial */
   .column-art .parrafo-art {
-    font-size: 1.5vmax;
+    font-size: 2vmax;
+  }
+  .column-art .foto-art {
+    width: 27vmax;
+  }
+  .column-ia .bloque-ia img {
+    width: 20vmax;
+    padding-top: 2vmax;
+  }
+  .column-ia .bloque-ia a {
+    font-size: 2.5vmax;
+  }
+  .column-ia .bloque-ia p {
+    font-size: 2vmax;
+    padding: 1vmax 3vmax;
   }
   /* pagina ciberseguridad */
   /* pagina ciberseguridad */
@@ -1143,12 +1238,11 @@ footer {
     margin: 1.5vmax auto;
   }
   /* footer */
-  .redes-sociales {
-    padding: 0.5vmax 0;
-  }
   .redes-sociales a {
-    margin-right: 0.7vmax;
-    font-size: 0.8vmax;
+    font-size: 2.5vmax;
+  }
+  .copyright {
+    font-size: 1.5vmax;
   }
   .robotica-col {
     width: 90%;

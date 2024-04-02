@@ -46,7 +46,7 @@
 
     h2 {
         font-family: $font-titulo;
-        font-size: 3vmax;
+        font-size: 2.5vmax;
         text-align: center;
         color: black;
     }
@@ -74,29 +74,44 @@ footer {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 
     .foot-caja {
-        justify-content: center;
-        align-items: baseline;
-        align-content: center;    
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-items:start;
+        align-self:baseline;
+
+       
+       
     }
 }
 
 .footer-contacto {
     display: flex;
     flex-flow: column  nowrap;
-    justify-content: center;
-    align-items: start;
+    padding-left: 5vmax !important;
 
+    
     h3 {
         color: $colorBlanco;
         font-family: $font-parrafo;
-        font-size: 1.8vmax;
+        font-size: 1.7vmax;
+        padding-bottom: 1vmax;
+    }
+
+    .div-contacto {
+        i {font-size: 1.3vmax;}
+        p {font-size: 1.3vmax;}
     }
 
     a {
         text-decoration: none;
         color: $colorBlanco;
+        font-size: 1.3vmax;
 
         &:hover {
             color: $colorUno;
@@ -113,7 +128,7 @@ footer {
 
     a {
         margin-right: 1.6vmax;
-        font-size: 1.5vmax;
+        font-size: 1.7vmax;
 
         &:hover {
             color: $colorUno;
@@ -124,18 +139,19 @@ footer {
 .footer-links {
     display: flex;
     flex-flow: column wrap;
-    justify-content: start;
-    align-items: start;
     align-content: center;
-    
+    text-align: center;
+   
 
     h3 {
         color: $colorBlanco;
         font-family: $font-parrafo;
-        font-size: 1.8vmax;
+        font-size: 1.7vmax;
+        padding-bottom: 1vmax;
     }
 
     a {
+        font-size: 1.3vmax;
         text-decoration: none;
         color: $colorBlanco;
         padding: 0.3vmax 0;
@@ -149,17 +165,17 @@ footer {
 .footer-newsletter {
     display: flex;
     flex-flow: column wrap;
-    justify-content: start;
-    align-items: start;
+    
 
     h3 {
         color: $colorBlanco;
         font-family: $font-parrafo;
-        font-size: 1.8vmax;
+        font-size: 1.7vmax;
+        padding-bottom: 1vmax;
     }
     p {
         color: $colorBlanco;
-        font-size: 1vmax;
+        font-size: 1.3vmax;
     }
 
     
@@ -167,27 +183,29 @@ footer {
 .div-contacto {
     i {
         color: $colorUno;
-        font-size: 1vmax;
+        font-size: 1.3vmax;
         padding-right: 0.5vmax;
     }
 
     p {
         color: $colorBlanco;
-        font-size: 1vmax;
-        margin-bottom: 1vmax;
+        font-size: 1.3vmax;
+        margin-bottom: 1.7vmax;
     }
 }
 
 .boton-suscripcion {
             font-family: $font-tres;
-            font-size: 1vmax;
+            font-size: 1.3vmax;
             text-decoration: none;
             color: $colorCinco;
             font-weight: bold;
             background-color: $colorUno;
-            padding: 0.3vmax 3vmax;
+            padding: 0.3vmax 2vmax;
             border-radius: 0.5vmax;
             margin-top: 2vmax;
+            display: flex;
+            flex-flow: row nowrap;
 
             &:hover {
                 color: $colorBlanco;
